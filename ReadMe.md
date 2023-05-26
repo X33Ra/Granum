@@ -13,4 +13,4 @@
 
 <p>I believe that encouraging failure and mistakes done and finding ways to debug codes is what makes a coder more resilient into giving up</p>
 
-<p> nonetheless, this is more akin to a journal of my prgoress. do enjoy your visit to mmy granum. </p>
+<p> nonetheless, this is more akin to a journal of my prgoress. do enjoy your visit to my granum. </p>
