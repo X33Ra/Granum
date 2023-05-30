@@ -15,3 +15,14 @@ why is there 2 different master and main branch in git hub
 
 > call backs 
 higher order callbacks
+dry is not repeating it's self
+wet is write every time
+
+passing by reference == search
+dont want a lot of coll backs [call backs within a combat is a no no]
+
+higher order = a function that accepts other function's arguement
+
+difference between arrow functions and function declarations
+
+for each inverse>> printitemandindex(foreachinreverse(numbers,cb));?
