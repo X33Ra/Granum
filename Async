@@ -1,0 +1,50 @@
+1. Event loop
+V
+# Call Stack
+  > code that call another function that will shown on call stack
+# Web API
+  > reading a file, geting web api request, or anyother task that may take quite a while
+V
+# Callback Queue
+  > a separate stack of call back that can be called when ready
+V
+# Event loop
+  > takes callback off call backqueue when it is possible to run the callback
+
+2. How it work
+  > main code would call and run a function then send it to web api
+  > it would then almost simultaniously run another function to send to the web api
+  > at this point both 2 of the function would be running in the web api's
+  > once each of the task finishes a call back would be added to the callback queue
+  > call back queue will collect call backs that can be run when each of the task is done
+  > the event loop's task is to run through callback queue and take callbacks off callback queue when the function is done
+
+3. Order of execution
+  > look at this code:
+
+  const startWashingMachine = () => { 
+
+    console.log('Washing Machine Started.'); // this will be exeecuted
+
+    setTimeout(//callback here() => { // has 2 parametre
+      console.log('Washing Maching Finished.')
+    },5000 // the 5000 is the time in ms of when the callback is to be called);
+  }
+
+  const startDishwasher = () => {
+    console.log('Dishwasher Started.'); //this line will be executed
+
+    setTimeout(//callback() => { // when the callback is called
+      console.log('Dishwasher Finished.'); //this console log will run
+    },8000 //timer in ms);
+  };
+  // all the first console log will run first
+  // then the cb of dishes and washing is done it will run the set timeout functions
+
+  // start long running tasks
+  startDishwasher();
+  startWashingMachine();
+  // start other tasks
+  https://vimeo.com/740472090/20bd9bed5a?embedded=true&source=vimeo_logo&owner=147384195
+
+  
