@@ -1,0 +1,25 @@
+When doing mocha:
+
+1. do npm init [this will add the package.json into the directory]
+2. do npm install mocha@9.2.2 chai --save-dev // this will install the mocha&chai to the folder
+3. [./node_modules/mocha/bin/mocha] 
+  > [The ./node_modules/mocha/bin/mocha command is used to run the Mocha test framework from the command line. Mocha is a popular JavaScript test framework that allows you to write and execute tests for your JavaScript code.
+
+  > In a typical project, Mocha is installed as a dependency using a package manager like npm or yarn. The node_modules directory is created in your project's root directory when you install packages. Inside the node_modules/mocha/bin directory, you can find the Mocha executable file named mocha.
+
+  > By running ./node_modules/mocha/bin/mocha, you are directly executing the Mocha executable to run your tests. This command is commonly used when running tests from the command line, build scripts, or test automation tools.
+
+  > Note that the ./ at the beginning of the command is used to specify the current directory as the starting point for the file path. This ensures that the correct Mocha executable is executed, even if there are other installations of Mocha globally on your system.]
+4. Run on your terminal on the folder the [.json] is located, npm (test[can be any name of the file you're going to use]) 
+  > it must not report anything as you have yet to create the file you're going to test
+5. and then create the 2 different folders you are planning to use as the host and the delivery location 
+  > the [.json] acts similarly to a cloud as to why it is at the direct line of the folder
+# Very important reminder!
+  > .js files are a bitch and they dont want you touching things so if you are planning on fixing syntax do [/file_directory$ eslint filename.js --fix]
+  > npm init -y [is shortcut to create a json withought the hastle of accepting through conditions]
+#
+</p>
+
+6. do npm [foldername]
+  > it should work after
+
