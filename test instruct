@@ -1,0 +1,7 @@
+Git clone the file again
+ git clone git@github.com:lighthouse-labs/assessment-exam-student.git [rename]
+cd into it then the file then npm install
+npm install sqlite3@4.0.9 && npm install --no-bin-links
+npm run start-exam [EXAM-TOKEN] (this will add the new tests in the answer folder)
+
+npm run question 0 [to check the run the test and submit answer]
