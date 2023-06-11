@@ -1,0 +1,53 @@
+# How to NPM log-in? </p>
+[assuming you still do not have an account]
+1. create an account though npm
+2. verify the account
+3. Log-in through the terminal by using : npm login
+  > this will prompt you to enter your:
+  > 
+    1.  Username
+    2.  Password
+    3.  Email
+      > note that after writing your email, npm will send you a OTP [One Time Password] to verify the account
+  > !! MAJOR NOTE !! all of the log-in information above are the registered credentials you used to register in NPM
+  >
+ 
+# 
+</p>
+
+# How to NPM publish? </p>
+[assuming you already did the instructions above]</p>
+  1. On your terminal cd to the folder directory that you want to publish
+  2. open your [.json] file so that you can edit it </p>
+    > Do make sure that you have a [.json] file already installed in your folder
+  3. Edit out the "name" to @username/[Folder Name]
+    > For example: @kvirani/lotide.
+  4. Specify valid "description" and "author" fields.
+    >   for example:
+      > "keywords": []
+      > "author": "@UserName",
+      > "license": "ISC",
+      > "bugs": {
+      >   "url": "https://github.com/@UserName/Folder Name/issues"
+      > },
+    > And
+      >  "name": "@UserName/[Folder Name]",
+      >  "version": "1.0.0",
+      >  "description": "[Any description you want]",
+      >  "main": "assertArraysEqual.js",
+      >  "directories": {
+      >    "test": "test"
+      >  },
+  5. After you're done make sure that everything is correct
+    > Set the "version" to "1.0.0" if it's not already set.
+  6. At the very bottom of your [.json] file,
+    > Add the following codes
+      > "publishConfig": {
+          > "access": "public"
+      > }
+    > The purpose of this command to to make sure that you are setting it as a public source  
+              > Now we're ready to publish our package.
+  7. On your terminal:
+    > type: npm publish
+  8. Once it is done loading, go to the NPM website
+    > you should be able to see the package once you go through your profile
