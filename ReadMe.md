@@ -14,3 +14,5 @@
 <p>I believe that encouraging failure and mistakes done and finding ways to debug codes is what makes a coder more resilient into giving up</p>
 
 <p> nonetheless, this is more akin to a journal of my prgoress. do enjoy your visit to my granum. </p>
+
+<p>If you notice that some of my commits are either useless or seems to be coming from somewhere do note I was either raging cause the code was so annoying and took me so long to figure out I placed them in wrong order, Or just some minor problems I ended up turning it into a lord of the ring battlefield also do note I code most of the time at night my brain goes UWU on me just like right now as im editing this readme. 
