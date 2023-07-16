@@ -1,0 +1,9 @@
+check out to switch to a branch
+-b means new brance 
+then name
+
+Create a new feature branch
+git checkout -b <name>
+
+to return to master 
+git checkout master
